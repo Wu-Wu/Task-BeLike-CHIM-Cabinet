@@ -1,10 +1,10 @@
 package Task::Cabinet;
 
-use 5.010;
+use v5.10.1;
 use warnings;
 use strict;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 1; # End of Task::Cabinet
 

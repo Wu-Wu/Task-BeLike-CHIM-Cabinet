@@ -1,4 +1,4 @@
-use 5.010;
+use v5.10.1;
 use ExtUtils::MakeMaker;
 
 my %options = (
@@ -21,6 +21,7 @@ my %options = (
         'DBD::mysql' => 0,
         'Redis' => 0,
         'Dancer' => 0,
+        'Dancer::Debug' => 0,
         'Dancer::Plugin::Database' => 0,
         'Dancer::Plugin::Redis' => 0,
         'Dancer::Session::Redis' => 0,
@@ -38,7 +39,7 @@ my %options = (
     'BUILD_REQUIRES' => {
         'Test::More' => '0.98',
     },
-    'MIN_PERL_VERSION' => '5.10.0',
+    'MIN_PERL_VERSION' => '5.10.1',
     'test' => {
         'TESTS' => 't/*.t',
     }
