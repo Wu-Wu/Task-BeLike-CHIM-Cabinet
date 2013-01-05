@@ -35,6 +35,7 @@ my %options = (
         'WWW::Mechanize' => 0,
         'Plack::Middleware::Debug' => 0,
         'Plack::Middleware::Debug::DBIProfile' => 0,
+        'Template::Plugin::Octets' => 0,
     },
     'BUILD_REQUIRES' => {
         'Test::More' => '0.98',
