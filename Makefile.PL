@@ -8,9 +8,6 @@ my %options = (
     'ABSTRACT_FROM' => 'lib/Task/Cabinet.pm',
     'LICENSE'       => 'perl',
     'PREREQ_PM'     => {
-        'Parallel::Scoreboard' => 0,
-        'Test::Pod' => 0,
-        'Net::Daemon' => 0,
         'Carp' => 0,
         'YAML' => 0,
         'Template' => 0,
@@ -36,6 +33,7 @@ my %options = (
         'Plack::Middleware::Debug' => 0,
         'Plack::Middleware::Debug::DBIProfile' => 0,
         'Template::Plugin::Octets' => 0,
+        'List::MoreUtils' => 0,
     },
     'BUILD_REQUIRES' => {
         'Test::More' => '0.98',
@@ -43,6 +41,9 @@ my %options = (
     'MIN_PERL_VERSION' => '5.10.1',
     'test' => {
         'TESTS' => 't/*.t',
+    },
+    'clean' => {
+        'FILES' => '*.tar.gz',
     }
 );
 

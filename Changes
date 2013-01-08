@@ -1,5 +1,11 @@
 Revision history for Perl extension Task::Cabinet
 
+0.05    2013-01-08
+    - added List::MoreUtils
+    - deleted Parallel::Scoreboard
+    - deleted Test::Pod
+    - deleted Net::Daemon
+
 0.04    2013-01-05
     - added Template::Plugin::Octets
 

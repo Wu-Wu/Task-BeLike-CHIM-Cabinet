@@ -3,6 +3,5 @@ lib/Task/Cabinet.pm
 LICENSE
 Makefile.PL
 MANIFEST
-META.yml
 README
 t/00_load.t

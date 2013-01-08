@@ -4,7 +4,7 @@ use v5.10.1;
 use warnings;
 use strict;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 1; # End of Task::Cabinet
 
