@@ -1,5 +1,9 @@
 Revision history for Perl extension Task::Cabinet
 
+0.08    2013-03-16
+    - deleted Redis (some modules requires it themselves)
+    - dzilify distribution
+
 0.07    2013-01-15
     - deleted DBD::mysql
     - added pod testing
