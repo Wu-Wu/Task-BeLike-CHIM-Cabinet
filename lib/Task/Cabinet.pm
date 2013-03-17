@@ -7,6 +7,7 @@ use warnings;
 use strict;
 
 # VERSION
+# AUTHORITY
 
 1; # End of Task::Cabinet
 __END__
