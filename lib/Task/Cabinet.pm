@@ -2,7 +2,7 @@ package Task::Cabinet;
 
 # ABSTRACT: Install all the CPAN modules needed by Cabinet
 
-use v5.10.1;
+use 5.010001;
 use warnings;
 use strict;
 
