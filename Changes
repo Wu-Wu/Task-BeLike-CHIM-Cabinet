@@ -1,6 +1,8 @@
 Revision history for Perl extension Task::Cabinet
 
 {{$NEXT}}
+
+0.10    Tue Apr 2 16:44:01 2013 +0000
     - set minimum version number for several modules
     - added Module::Versions
     - removed Dancer::Debug
