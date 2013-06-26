@@ -1,6 +1,8 @@
 Revision history for Perl extension Task::BeLike::CHIM::Cabinet
 
 {{$NEXT}}
+
+0.15    Wed Jun 26 21:01:57 2013 +0000
     - move to Task::BeLike:: namespace
 
 0.10    Tue Apr 2 16:44:01 2013 +0000
