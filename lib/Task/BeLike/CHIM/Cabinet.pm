@@ -1,4 +1,4 @@
-package Task::Cabinet;
+package Task::BeLike::CHIM::Cabinet;
 
 # ABSTRACT: Install all the CPAN modules needed by Cabinet
 
@@ -9,7 +9,7 @@ use strict;
 # VERSION
 # AUTHORITY
 
-1; # End of Task::Cabinet
+1; # End of Task::BeLike::CHIM::Cabinet
 __END__
 
 =pod

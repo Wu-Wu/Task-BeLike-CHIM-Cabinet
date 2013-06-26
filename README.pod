@@ -2,11 +2,11 @@
 
 =head1 NAME
 
-Task::Cabinet - Install all the CPAN modules needed by Cabinet
+Task::BeLike::CHIM::Cabinet - Install all the CPAN modules needed by Cabinet
 
 =head1 VERSION
 
-version 0.10
+version 0.15
 
 =head1 DESCRIPTION
 
@@ -22,7 +22,7 @@ Anton Gerasimov <chim@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Anton Gerasimov.
+This software is copyright (c) 2013 by Anton Gerasimov.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
